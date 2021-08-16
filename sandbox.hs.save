@@ -1,0 +1,9 @@
+collatz :: Int -> Int
+
+collatz = h_collatz 0 n
+
+h_collatz :: Int -> Int -> Int
+h_collatz ans n
+   | n == 1 = ans
+   | even n = h_collatz (ans+1) (div n 2)
+   | otherwise = h_collatz (ans+1) (3*n+1)
