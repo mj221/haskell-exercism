@@ -1,1 +1,1 @@
-# Haskell-exercism exercises for COMP3400
+Haskell-exercism exercises for COMP3400
